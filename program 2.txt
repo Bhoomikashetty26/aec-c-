@@ -1,0 +1,20 @@
+2.Sum of squares of all natural numbers
+
+#include <stdio.h>
+
+int main() {
+    int n,i,sum=0;
+    printf("enter n");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
+    {
+        sum=sum+i*i;
+    }
+    printf("%d",sum);
+}
+
+Output:
+1.enter n4
+30
+2.enter n5
+55

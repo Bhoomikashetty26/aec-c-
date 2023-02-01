@@ -1,0 +1,42 @@
+Ig acc as spam
+
+#include <iostream>
+using namespace std;
+int main() {
+    int followercount,followcount,t;
+    cout<<"enter the testcase"<<endl;
+    cin>>t;
+    while(t--)
+    {
+        cout<<"enter the number of followers:"<<endl;
+        cin>>followercount;
+        cout<<"enter the following count:"<<endl;
+        cin>>followcount;
+        if(followcount=followercount*10)
+        {
+            cout<<"account is spam"<<endl;
+        }
+        else
+        cout<<"account is not spam"<<endl;
+    }
+    return 0;
+}
+
+OUTPUT:
+1. enter the testcase
+3
+enter the number of followers:
+1230
+enter the following count:
+370
+account is spam
+enter the number of followers:
+
+2. enter the testcase
+56
+enter the number of followers:
+9000
+enter the following count:
+45
+account is spam
+enter the number of followers:
